@@ -10,12 +10,12 @@ led4 = 27
 led5 = 18
 buzzerpin = 17
 
-GPIO.setmode(GPIO.BCM) ## use board pin numbering
-GPIO.setup(led1, GPIO.OUT) ## set up led 1 pin
-GPIO.setup(led2, GPIO.OUT) ## set up led 1 pin
-GPIO.setup(led3, GPIO.OUT) ## set up led 1 pin
-GPIO.setup(led4, GPIO.OUT) ## set up led 1 pin
-GPIO.setup(led5, GPIO.OUT) ## set up led 1 pin
+GPIO.setmode(GPIO.BCM)           ## use board pin numbering
+GPIO.setup(led1, GPIO.OUT)       ## set up led 1 pin
+GPIO.setup(led2, GPIO.OUT)       ## set up led 2 pin
+GPIO.setup(led3, GPIO.OUT)       ## set up led 3 pin
+GPIO.setup(led4, GPIO.OUT)       ## set up led 4 pin
+GPIO.setup(led5, GPIO.OUT)       ## set up led 5 pin
 GPIO.setup(buzzerpin, GPIO.OUT)  ## set up buzzer pin
 
 
@@ -76,4 +76,4 @@ AllOn(1)
 
 TurnOn(buzzerpin, 1)
 
-GPIO.cleanup()
+GPIO.cleanup() ## when we're done, turn everything off.
