@@ -11,12 +11,12 @@ led5 = 18
 buzzerpin = 17
 
 GPIO.setmode(GPIO.BCM)           ## use board pin numbering
-GPIO.setup(led1, GPIO.OUT)       ## set up led 1 pin
-GPIO.setup(led2, GPIO.OUT)       ## set up led 2 pin
-GPIO.setup(led3, GPIO.OUT)       ## set up led 3 pin
-GPIO.setup(led4, GPIO.OUT)       ## set up led 4 pin
-GPIO.setup(led5, GPIO.OUT)       ## set up led 5 pin
-GPIO.setup(buzzerpin, GPIO.OUT)  ## set up buzzer pin
+GPIO.setup(led1, GPIO.OUT)       ## set up led 1 pin, white wire
+GPIO.setup(led2, GPIO.OUT)       ## set up led 2 pin, orange wire
+GPIO.setup(led3, GPIO.OUT)       ## set up led 3 pin, green wire
+GPIO.setup(led4, GPIO.OUT)       ## set up led 4 pin, yellow wire
+GPIO.setup(led5, GPIO.OUT)       ## set up led 5 pin, purple wire
+GPIO.setup(buzzerpin, GPIO.OUT)  ## set up buzzer pin, blue wire
 
 
 def Blink(pin, iterations, speed):
