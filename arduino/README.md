@@ -11,4 +11,6 @@ The joystick needs to be plugged into the Arduino in the correct way for it to w
  * VRy (purple wire) to Arduino anlogue pin 1
  * SW (blue wire) to Arduino digital pin 2
 
-To check if the Arduino end is working, open the Arduino IDE and choose *Tools > Serial Monitor*. You should see x, y, and switch values as they come in.
+To check if the Arduino end is working, open the Arduino IDE and choose *Tools > Serial Monitor*. You should see x, y, and switch values as they come in. But you shouldn't need to spend any time in the Arduino IDE.
+
+*arduinojoystick.py* requires the joystick plugged into the Arduino running *joystick.ino*. It also requires the 4-segment LED matrix to be plugged in and the buzzer (wiring as in *lights.py*). When run, it should disply the movements of the joystick on the LED matrix.
