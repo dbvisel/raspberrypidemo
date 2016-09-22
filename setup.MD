@@ -4,10 +4,10 @@
 
 From the terminal:
 
- * *sudo apt-get update*
- * *sudo apt-get install arduino*
- * *sudo apt-get install iceweasel*
- * *git clone https://github.com/dbvisel/raspberrypidemo.git*
+ * *sudo apt-get update*, which updates its package trees
+ * *sudo apt-get install arduino*, which installs Arduino
+ * *sudo apt-get install iceweasel*, which installs IceWeasel, necessary if you want to use the Github website
+ * *git clone https://github.com/dbvisel/raspberrypidemo.git*, which installs these files
  * *sudo raspi-config*
   * Go down to *9, Advanced Options*
   * Choose *A5, SPI*
