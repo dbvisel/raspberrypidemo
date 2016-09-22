@@ -17,7 +17,7 @@ From the Terminal:
  * *sudo pip install max7219*, which installs the library for running the LED matrix
  * Restart the computer
 
-There should now be a directory called *raspberrypidemo* which has the files that you'll use in it.
+There should now be a directory called *raspberrypidemo* which has the files that you'll use in it. Open *.py* files in Python (use 2 rather than 3 if you're using the LED matrix); open *.ino* files in the Arduino IDE.
 
 ## Testing
 
