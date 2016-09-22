@@ -13,3 +13,5 @@ From the terminal:
   * Choose *A5, SPI*
   * Select *Yes* to enable to SPI interface
  * Restart the computer
+
+There should now be a directory called *raspberrypidemo* which has the files that you'll use in it.
