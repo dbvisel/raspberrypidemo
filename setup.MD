@@ -1,8 +1,10 @@
 # Setting up a Raspberry Pi to use these files
 
 (Assuming that the Raspberry Pi already has Raspian installed on it.)
+ * Connect mouse & keyboard
+ * Connect to internet
 
-From the terminal:
+From the Terminal:
 
  * *sudo apt-get update*, which updates its package trees
  * *sudo apt-get install arduino*, which installs Arduino
@@ -12,6 +14,20 @@ From the terminal:
   * Go down to *9, Advanced Options*
   * Choose *A5, SPI*
   * Select *Yes* to enable to SPI interface
+ * *sudo pip install max7219*, which installs the library for running the LED matrix
  * Restart the computer
 
 There should now be a directory called *raspberrypidemo* which has the files that you'll use in it.
+
+If you're going to be using the Arduino IDE:
+
+ * Plug the Arduino's USB into the Raspberry Pi
+ * Open the Arduino IDE from the menu (under *Electronics*)
+ * Under *Tools*, go to *Board*, and select *Arduino Mega 2560 or Mega ADK* (or another board if that's what you're using)
+ * Under *Tools*, go to *Serial Port* and select *dev/ttyACM0* or whatever it says
+ * Open *joystick.ino* (it will want to move the sketch, which is fine) and click the *Upload* button
+ * Under *Tools*, go to *Serial Monitor*
+ * Change the baud rate to *115200 baud*
+ * Make sure that it's spitting out recognizable information
+ * Close the Arduino IDE
+ * In Python, open *arduinojoystick.py* and see if it works.
