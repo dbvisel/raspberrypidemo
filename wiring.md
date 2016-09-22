@@ -1,12 +1,26 @@
+# LEDs and buzzer
+
+Pin numbering on the Raspberry Pi is a complicated mess. The pin references I have are what's written on the shield.
+
+ * Raspberry Pi GND —> black (a black cable connects both sides of the breadboard)
+ * Raspberry Pi pin 17 (IO24) —> white wire —> LED 1
+ * Raspberry Pi pin 24 (IO23) —> orange wire —> LED 2
+ * Raspberry Pi pin 23 (IO22) —> green wire —> LED 3
+ * Raspberry Pi pin 22 (IO27) —> yellow wire —> LED 4
+ * Raspberry Pi pin 27 (IO18) —> purple wire —> LED 5
+ * Raspberry Pi pin 18 (IO17) —> blue wire —> buzzer
+
+The LED wires are connected to the positive side (long wire, flat side) of the LED; the LED's negative side (short wire) ic connected via a 330 ohm resistor to ground.
+
 # LED matrix
 
 Both the 1-segment LED matrix and the 4-segment LED matrix have five pins. To change matrix, disconnect from the device. You'll see the labels on the bottom side of the board.
 
- * Raspberry Pi —> Red wire —> Green wire —> VCC (on the matrix)
- * Raspberry Pi —> Gray wire —> Yellow wire —> GND
- * Raspberry Pi —> White wire —> Orange wire —> DIN
- * Raspberry Pi —> Gray wire —> Red wire —> CS
- * Raspberry Pi —> Purple wire —> Brown wire —> CLK
+ * Raspberry Pi (5V) —> Red wire —> Green wire —> VCC (on the matrix)
+ * Raspberry Pi (GND) —> Gray wire —> Yellow wire —> GND
+ * Raspberry Pi (MOSI) —> White wire —> Orange wire —> DIN
+ * Raspberry Pi (CEO) —> Gray wire —> Red wire —> CS
+ * Raspberry Pi (SCLK)—> Purple wire —> Brown wire —> CLK
 
 # Arduino and joystick
 
