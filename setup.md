@@ -9,7 +9,7 @@ From the Terminal:
 
  * *sudo apt-get update*, which updates its package trees
  * *sudo apt-get install arduino*, which installs Arduino
- * *sudo apt-get install iceweasel*, which installs IceWeasel, necessary if you want to use the Github website
+ * *sudo apt-get install iceweasel*, which installs IceWeasel (only really necessary if you want to do anything with the Github website)
  * *git clone https://github.com/dbvisel/raspberrypidemo.git*, which installs these files
  * *sudo raspi-config*
   * Go down to *9, Advanced Options*
