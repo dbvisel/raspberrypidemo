@@ -2,7 +2,7 @@
 
 Pin numbering on the Raspberry Pi is a complicated mess. The pin references I have are what's written on the shield.
 
- * Raspberry Pi GND —> black (a black cable connects both sides of the breadboard)
+ * Raspberry Pi GND —> black (a black jumper connects both sides of the breadboard)
  * Raspberry Pi pin 17 (IO24) —> white wire —> LED 1
  * Raspberry Pi pin 24 (IO23) —> orange wire —> LED 2
  * Raspberry Pi pin 23 (IO22) —> green wire —> LED 3
@@ -10,7 +10,7 @@ Pin numbering on the Raspberry Pi is a complicated mess. The pin references I ha
  * Raspberry Pi pin 27 (IO18) —> purple wire —> LED 5
  * Raspberry Pi pin 18 (IO17) —> blue wire —> buzzer
 
-The LED wires are connected to the positive side (long wire, flat side) of the LED; the LED's negative side (short wire) ic connected via a 330 ohm resistor to ground.
+The LED wires are connected to the positive side (long wire, flat side) of the LED; the LED's negative side (short wire) ic connected via a 330 ohm resistor to ground. The buzzer is connected directly to ground.
 
 # LED matrix
 
