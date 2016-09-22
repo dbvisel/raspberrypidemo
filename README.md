@@ -10,6 +10,8 @@ This code is dependent on the wiring being the same as it is in the setup I've u
 
 The files in */arduino* are for running with an Arduino attached to the Raspberry Pi.
 
+* wiring.md* contains instructions for wiring.
+
 *setup.md* contains instructions for setting up your Raspberry Pi so that these files will work.
 
 To install this on your Raspberry Pi, open the Terminal and type *git clone https://github.com/dbvisel/raspberrypidemo.git*. That will install a directory called *raspberrypidemo* with all these files.
