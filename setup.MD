@@ -19,6 +19,14 @@ From the Terminal:
 
 There should now be a directory called *raspberrypidemo* which has the files that you'll use in it.
 
+## Testing
+
+ * Attach the shield connected to the breadboard to the Raspberry Pi
+ * In Python, open *lights.py* and run it. The lights should turn on and the buzzer should work.
+ * In Python, open *ledmatrix4.py* and run it. The LED matrix should work.
+
+## Setting up the Arduino
+
 If you're going to be using the Arduino IDE:
 
  * Plug the Arduino's USB into the Raspberry Pi
