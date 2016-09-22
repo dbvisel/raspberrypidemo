@@ -1,6 +1,7 @@
 # Setting up a Raspberry Pi to use these files
 
-(Assuming that the Raspberry Pi already has Raspian installed on it.)
+(This assumes that the Raspberry Pi you're using already has Raspian installed on it & running. If not, download NOOBS from https://www.raspberrypi.org/downloads/noobs/ and then follow the instructions at https://www.raspberrypi.org/documentation/installation/installing-images/mac.md to create the SD card. Plug that in, turn on the Pi, and follow the instructions; this will take a while.)
+
  * Connect mouse & keyboard
  * Connect to internet
 
