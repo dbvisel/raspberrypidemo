@@ -1,6 +1,6 @@
 # Setting up a Raspberry Pi to use these files
 
-(This assumes that the Raspberry Pi you're using already has Raspian installed on it & running. If not, download NOOBS from https://www.raspberrypi.org/downloads/noobs/ and then follow the instructions at http://www.macworld.co.uk/how-to/mac/how-to-set-up-raspberry-pi-3-with-mac-3637490/ to create the SD card. Plug that in, turn on the Pi, and follow the instructions; this will take a while.)
+(This assumes that the Raspberry Pi you're using already has Raspbian installed on it & running. If not, download the NOOBS image from https://www.raspberrypi.org/downloads/noobs/ and then follow the instructions at http://www.macworld.co.uk/how-to/mac/how-to-set-up-raspberry-pi-3-with-mac-3637490/ to create the SD card. Plug that in, turn on the Pi, and follow the instructions to install Raspbian; this will take a while.)
 
  * Connect mouse & keyboard
  * Connect to internet
