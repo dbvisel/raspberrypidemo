@@ -8,6 +8,7 @@
 From the Terminal:
 
  * *sudo apt-get update*, which updates its package trees
+ * *sudo apt-get upgrade*, which updates everything
  * *sudo apt-get install arduino*, which installs Arduino
  * *sudo apt-get install iceweasel*, which installs IceWeasel (only really necessary if you want to do anything with the Github website)
  * *git clone https://github.com/dbvisel/raspberrypidemo.git*, which installs these files
