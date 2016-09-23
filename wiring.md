@@ -31,3 +31,10 @@ The joystick needs to be plugged into the Arduino in the correct way for it to w
  * VRx (gray wire) to Arduino analogue pin 0
  * VRy (purple wire) to Arduino anlogue pin 1
  * SW (blue wire) to Arduino digital pin 2
+
+# Relay
+
+For this to work, the relay needs its two connectors plugged into the cord of the laser light show. 
+
+ * Raspberry Pi (IO19) —> relay
+ * Orange + brown wires from the relay to the cord of the laser light show
