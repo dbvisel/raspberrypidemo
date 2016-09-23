@@ -1,4 +1,4 @@
-# raspberry pi demos
+# Raspberry Pi electronics demos
 
 These are demo files for using with a Raspberry Pi connected to simple electrical components:
 
